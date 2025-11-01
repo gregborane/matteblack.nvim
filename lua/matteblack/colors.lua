@@ -25,14 +25,14 @@ M.palette = {
 
   comment = "#8A8A8D",
 
-  -- Accent palette (matches VS Code / Zed ports)
+  -- Accent palette replaced yellow and derivatives with blue ones.
   red = "#B91C1C",
   crimson = "#DC2626",
-  orange = "#F59E0B",
-  amber = "#D97706",
-  yellow = "#FBBF24",
-  gold = "#EFBF04",
-  ochre = "#BF9903",
+  orange = "#357ABD",   
+  amber = "#2A4F7D",    
+  yellow = "#4A90E2",  
+  gold = "#5AA0E8",      
+  ochre = "#357ABD",     
 
   green = "#059669",
   teal = "#10B981",
