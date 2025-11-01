@@ -2,9 +2,15 @@
 
 A Matte Black colorscheme for Neovim.
 
-## Screenshots
+Replacing Yellow by Blue accents.
 
-TBD: Screenshots will be added soon.
+| Name     | Old Value | New Value | Purpose                                                    |
+| -------- | --------- | --------- | ---------------------------------------------------------- |
+| `orange` | `#F59E0B` | `#357ABD` | replaces bright orange with muted blue for softer contrast |
+| `amber`  | `#D97706` | `#2A4F7D` | substitutes deep orange with darker blue tone              |
+| `yellow` | `#FBBF24` | `#4A90E2` | replaces yellow highlights with balanced medium blue       |
+| `gold`   | `#EFBF04` | `#5AA0E8` | shifts gold to a lighter blue accent                       |
+| `ochre`  | `#BF9903` | `#357ABD` | aligns ochre with the same matte blue as orange            |
 
 <!--
 ## Features
@@ -22,7 +28,7 @@ TBD: Screenshots will be added soon.
 
 ```lua
 {
-  "tahayvr/matteblack.nvim",
+  "gregborane/matteblack.nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -92,12 +98,12 @@ No additional configuration needed - treesitter highlights are included automati
 | Background | `#121212` | Main background           |
 | Foreground | `#EAEAEA` | Main text                 |
 | gray2      | `#61AFEF` | Functions, headings       |
-| Yellow     | `#E5C07B` | Types, constructors       |
+| Yellow     | `#4A90E2` | Types, constructors       |
 | Magenta    | `#C678DD` | Keywords, control flow    |
 | gray1      | `#98C379` | Strings, positive changes |
 | Red        | `#B91C1C` | Errors, exceptions        |
-| Orange     | `#F59E0B` | Numbers, warnings         |
-| amber      | `#56B6C2` | Constants, properties     |
+| Orange     | `#357ABD` | Numbers, warnings         |
+| amber      | `#5AA0E8` | Constants, properties     |
 | Pink       | `#E06C75` | Parameters                |
 | Gray       | `#5C6370` | Comments, delimiters      |
 -->
